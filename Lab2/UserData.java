@@ -20,9 +20,9 @@ public class UserData {
 
         //To print all collected  data
         System.out.println("Names in ascending order");
-         System.out.println("names[0], names[1], names[2]");
+         System.out.println(names[0], names[1], names[2]);
         System.out.println("Names in descending order");
-        System.out.println("names[2], names[1], names[0]");
+        System.out.println(names[2], names[1], names[0]);
 
     }
 }
