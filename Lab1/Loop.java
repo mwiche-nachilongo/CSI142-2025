@@ -20,12 +20,12 @@ public class Loop{
 
  
 while(N != sentinel){
-    System.out.printf("Enter integer score:");
+    System.out.println("Enter integer score:");
        sum = N + sum;
        scorecount++;
     }
-System.out.printf("Number of scores entered: %d\n", scorecount);
-System.out.printf( "Sum of scores: %d\n", sum);
+System.out.println("Number of scores entered: %d\n", scorecount);
+System.out.println( "Sum of scores: %d\n", sum);
 
 }
 }
