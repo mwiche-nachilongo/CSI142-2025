@@ -12,7 +12,7 @@ public class UserData {
         Scanner in = new Scanner (System.in);
 
         String [] names = new String [3]; // To create fixed array 
-        System.in.println("Enter exactly three names:"); //To prompt the user for exactly 3 names
+        System.out.println("Enter exactly three names:"); //To prompt the user for exactly 3 names
 
          names [0] = in.nextLine();
          names [1] = in.nextLine();
