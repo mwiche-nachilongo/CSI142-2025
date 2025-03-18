@@ -8,11 +8,11 @@ To execute: java CmdArgDemo Hello
 
 public class CmdArgDemo {
     public static void main (String []args ) {
-    if (args.legnth == 0) {
+    if (args.length == 0) {
         System.out.println("No arguments provided");
         }
         if (args.length > 0 ) {
-            System.out.println ( "args[0]" );
+            System.out.println ( "Hello" );
             
         }
     }
