@@ -28,7 +28,7 @@ SelectionSort l4= new SelectionSort("Francistown", 29);
 SelectionSort l5 = new SelectionSort("Kanye", 19);
 
 //store in arraylist
-public ArrayList <int> temperatureRecord = new ArrayList<>();
+ArrayList <int []> temperatureRecord = new ArrayList<>();
 temperatureRecord.add(38);
 temperatureRecord.add(40);
 temperatureRecord.add(35);
@@ -36,7 +36,7 @@ temperatureRecord.add(29);
 temperatureRecord.add(19);
 
 //compute difference between maximum and mininmum values
-      int difference =   studentIDs [4] - studentIDs [0];
+      int difference =  studentIDs [4] - studentIDs [0];
 // print original array
 System.out.println("Original array: " + Arrays.toString(studentIDs));
 
