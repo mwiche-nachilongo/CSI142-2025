@@ -15,7 +15,7 @@ public class InvalidInputException extends Exception {
    public static int readAndParse() throws InvalidInputException {
 
     Scanner BalanceReader = new Scanner(System.in);
-    String integer;
+    int integer;
     String input;
    
     System.out.print("Enter an integer: ");
@@ -24,12 +24,12 @@ public class InvalidInputException extends Exception {
    
     try {
     
-    return integer.ParseInt("input"); //try converting input to int
+     input.readandParse(integer); //try converting input to int
    
     } catch (NumberFormatException e) {
     throw new InvalidInputException("Not a valid integer: " + input);//Throws input exception
 }
-    } finally {
+    } public void Finally() {
     System.out.println("Finally block: always runs!");//Run a print statement
    } 
    public static void main(String[] args) {

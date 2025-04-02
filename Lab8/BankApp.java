@@ -23,10 +23,8 @@ public class  BankApp{
     BasicBankable bc = (BasicBankable) accounts.get(0);
     System.out.println("bc.Deposit(200.00,300.00): " +bc.deposit(200.00, 300.00));
     
-    BasicBankable bc = (BasicBankable) accounts.get(0);
-    System.out.println("bc.Deposit(200.00,300.00): " +bc.budget(200.00, 300.00));
-
-
+    BasicBankable bd = (BasicBankable) accounts.get(0);
+    System.out.println("bc.Deposit(200.00,300.00): " +bd.budget(5, 300.00));
 
 }
 }
