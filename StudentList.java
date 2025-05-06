@@ -6,15 +6,14 @@
  */
 
 
-public class StudentList<T> extends Student {
+public class StudentList <T> {
 private Node<T> head;
  public StudentList() {
-    super(name, score);
  head = null; 
  }
 
 // add student method to append new student at the end 
- public void add(String name, double score) {
+ public void add (Student s) {
  Node<T> newNode = new Node<>();
  if (head == null) {
  head = newNode;
@@ -28,14 +27,12 @@ private Node<T> head;
  }
  // print all method to display all student details
  public void printAll() {
- Node<T> student = head;
-String name;
-double score; 
-
- while (student != null) {
- System.out.println(Student.name, Student.score, " -> " );
+ Node<T> student = head; 
+while (student != null) {
+ System.out.print(student + "->");
  student = student.next;
- }
+}
  System.out.println("null");
 }
 }
+
